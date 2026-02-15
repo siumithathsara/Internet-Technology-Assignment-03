@@ -4,49 +4,84 @@ body {
 }
 
 
-.fixed-large-circle {
-    position: fixed;
+.fixed-circle {
+   position: fixed;
+    background: transparent;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+
+    border: 25px solid rgb(77, 81, 80);
+    outline: 15px solid rgb(120, 27, 27);
+    outline-offset: -10px;
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
-    height: 350px;
-    background-color: #b59585; 
-    border-radius: 50%;
+
     z-index: 10;
 }
 
-.fixed-small-circle {
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    height: 300px;
-    background-color: red;
-    border-radius: 50%;
-}
+
 
 .content {
     position: relative;
-    width: 100%;
-    padding-top: 50vh;
+    min-height: 2197px;
 }
 
-.circle {
-    width: 250px;
-    height: 250px;
+.circle-purple {
+    position: absolute;
+    background:purple;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
-    margin: 0 auto 500px auto; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
+    display: flex;
+    align-items: center;      
+    justify-content: center; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  
+}
+
+.circle-blue{
+
+     position: absolute;
+    background: blue;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    top: 150vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+     display: flex;
+    align-items: center;      
+    justify-content: center; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.circle-orange{
+     position: absolute;
+    background: orange;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    top: 250vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    align-items: center;     
+    justify-content: center;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
 }
-
-.purple { background-color: #8e3575; }
-.blue { background-color: #2da0ba; }
-.orange { background-color: #f0544c; }

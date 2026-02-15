@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.card-01{
+    position: sticky;
+    background-color: rgb(168, 22, 22);
+    color: white;
+    font-size: 20px;
+    top: 0;
+     padding: 15px;
+}
+
+.card-02{
+     position: sticky;
+    background-color: rgb(17, 17, 140);
+    color: white;
+    font-size: 20px;
+    top: 0;
+     padding: 15px;
+}
+.card-03{
+      position: sticky;
+    background-color: rgb(46, 39, 39);
+    color: white;
+    font-size: 20px;
+    top: 0;
+     padding: 15px;
+}
+
+.card-04{
+    position: sticky;
+    background-color: rgb(183, 74, 2);
+    color: white;
+    font-size: 20px;
+    top: 0;
+     padding: 15px; 
+}
+
+.section{
+      height: 800px;
+     
+}
+.text{
+     font-size: 100px;
+     font-weight: bold;
+     margin-top: 40vh;
+     margin-left: 40vw;
+}
+
+.second{
+     background-color: rgb(25, 187, 241);
+}
+.third{
+    background-color: rgba(57, 52, 52, 0.916); 
+}
+.forth{
+     background-color: orangered;  
+}
