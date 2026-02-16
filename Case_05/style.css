@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 100vh;
+}
+
+.box{
+    border: 1px solid black;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: rgb(255, 106, 0);
+}
+.purple{
+    background-color: purple;
+}
+
+.pink{
+    background-color: rgb(233, 82, 172);
+}
+
+.light-blue{
+    background-color: blue;
+}
+.brown{
+    background-color: brown;
+}
+
+.lavendra{
+    background-color: rgba(250, 140, 250, 0.995);
+}
+
+.dark-blue{
+    background-color: indigo;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.light-green{
+    background-color: cadetblue;
+}
+.blue{
+    background-color: cyan;
+}
