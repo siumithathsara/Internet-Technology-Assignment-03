@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 100vh;
+}
+
+
+.box{
+    border: 1px solid black;
+}
